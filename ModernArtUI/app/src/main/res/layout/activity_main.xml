@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.labs.modernartui.MainActivity">
+
+    <LinearLayout
+        android:layout_height="450dp"
+        android:layout_width="150dp"
+        android:id="@+id/linearPos1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/rectangle1"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#ff5c89ff"/>
+
+        <TextView
+            android:id="@+id/rectangle2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#ffee53ff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="450dp"
+        android:layout_width="230dp"
+        android:id="@+id/linearPos2"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/rectangle3"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#ffff0723"
+            android:layout_marginLeft="1dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/rectangle4"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#f6f5f9"
+            android:layout_marginLeft="1dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/rectangle5"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="#ff4b04ff"
+            android:layout_marginLeft="1dp"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/customSeekBar"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+        android:progress="0"/>
+
+
+</GridLayout>
