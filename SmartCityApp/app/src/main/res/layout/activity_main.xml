@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="course.labs.smartcityapp.MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:ems="10"
+        android:id="@+id/loginemail"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="209dp"
+        tools:layout_editor_absoluteX="5dp"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/loginPassword"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:hint="Enter Password"
+        android:ems="10"
+        android:id="@+id/loginPassword"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="294dp"
+        tools:layout_editor_absoluteX="15dp"
+        android:layout_above="@+id/showpassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp" />
+
+    <CheckBox
+        android:id="@+id/showpassword"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/buttonLogin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLogin"
+        android:text="LogIN "
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/registerbutton"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/forgetbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Forget Password?"
+        android:layout_alignBaseline="@+id/showpassword"
+        android:layout_alignBottom="@+id/showpassword"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/registerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="If No Account Register Here ?"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

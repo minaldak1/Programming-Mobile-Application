@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.labs.smartcityapp.ChooseCategory">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Choose Category"
+        android:textSize="30dp"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/radioGroup2">
+
+
+        <RadioButton
+            android:id="@+id/radiostreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Street Lights"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/radiohori"
+            android:layout_alignStart="@+id/radiohori"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioencr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Encroachments"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/radiohori"
+            android:layout_alignStart="@+id/radiohori" />
+
+        <RadioButton
+            android:id="@+id/radiohori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horticulture"
+            android:textSize="25dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/radiounau"
+            android:layout_alignStart="@+id/radiounau" />
+
+        <RadioButton
+            android:id="@+id/radiounau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unauthorized Construction"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/radioGroup"
+            android:layout_alignStart="@+id/radiostreet" />
+
+        <RadioButton
+            android:id="@+id/radioroad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Road"
+            android:textSize="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/radioencr"
+            android:layout_alignStart="@+id/radioencr" />
+
+        <RadioButton
+            android:id="@+id/radiooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/radioroad"
+            android:layout_alignStart="@+id/radioencr" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignBaseline="@+id/catcancel"
+        android:layout_alignBottom="@+id/catcancel"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/catcancel"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:text="Cancel" />
+
+
+
+
+
+</RelativeLayout>

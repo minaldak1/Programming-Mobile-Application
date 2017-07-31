@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\hp\AndroidStudioProjects\LocationLab\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\LocationLab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_29f7ece90835ef0535c9fe3ad1fb5dc67ac5ce61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hp\AndroidStudioProjects\LocationLab\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="783bdf89c6288b2b56cb62548982209993fb195e">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\LocationLab\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8926fa7f0e039a2fa1f7a6454234266e3a0373be\classes.dex" />
+    </item>
+
+</items>
